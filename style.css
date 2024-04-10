@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;  
+}
+
 header {
     background-color: #424E61;
     color: white;
@@ -35,25 +39,18 @@ header {
     background-image: linear-gradient(#424E61, #4EBFE9);
     color: aliceblue;
     display: flex;
-   }
-
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+  }
+ .estudante-div-conteudo{
+      width: 35%;
+ }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .escola-titulo{
+     padding: 24px 0;
+ }
+ 
    .estudante-imagem{
      width: 30%;
    }
