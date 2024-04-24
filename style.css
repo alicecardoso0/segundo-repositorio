@@ -31,11 +31,11 @@ header {
     font-size: 24px;
 }   
 
-     .escola-imagem{
+ .escola-imagem{
        width: 25%;
      }
       
-   .escola{
+.escola{
     background-image: linear-gradient(#424E61, #4EBFE9);
     color: aliceblue;
     display: flex;
@@ -64,3 +64,18 @@ header {
      text-align: center;
      padding: 16px 0;
    }
+
+   .escola-titulo{
+     text-align: center;
+     padding: 50px 0;
+   }
+
+   .rodape {
+    background-color: black;
+    text-align: center;
+   }
+
+   .rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+}
