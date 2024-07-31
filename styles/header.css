@@ -38,7 +38,7 @@
     width: 50vm;
 }
 
-.container__botao;:checked~.cabecalho-lista{
+.container__botao:checked~.cabecalho-lista{
     display: block;
 }
 
@@ -64,7 +64,7 @@
 
 .menu__lista-item{
     background: var(--cor-principal);
-    color: var(--cor-3);
+    color: var(--cor-4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
