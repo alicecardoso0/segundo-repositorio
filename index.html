@@ -137,8 +137,24 @@
                 <p class="descricao__texto"> É feito o mapeamento, limpeza das sobrancelhas,remoção dos fios.e a aplicação da henna  </p>
         </div>
         
-        <img src="./img/" alt="Foto da promoção" class="desricao__imagem">
+        <img src="./img/promoção.png" alt="Foto da promoção" class="desricao__imagem">
 
+    </div>
+
+    <div class="class__botoes">
+        <ul class="botoes">
+            <li class="botoes__item">
+                <img src="./img/favoritos.svg" alt="Favoritar produto">
+            </li>
+            <li class="botoes__item"> 
+                <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
+            </li>
+        </ul>
+
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+
+    </div>
+</div>
 
     </section>
 
@@ -158,6 +174,17 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 
 </body>
 
