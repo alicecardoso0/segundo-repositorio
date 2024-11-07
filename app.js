@@ -19,8 +19,17 @@ function criaCartao (item, pergunta, resposta) {
                     <p>${resposta}</p>
                 </div>
             </div>
+     `
 
-    `
+let respostaEstaVísivel = false
+
+function viracartão () {
+   respostaEstaVísivel = !variavelEstaVisivel;
+   cartao.classList.toggle('active', viracartão);
+}
+
+cartao.addEventListener('click', viracartão);
+
     flaschcard.appendChild(cartao);
 
 }
