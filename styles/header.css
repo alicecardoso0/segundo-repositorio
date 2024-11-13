@@ -1,5 +1,5 @@
 .cabecalho{
-    background-color: var(--cor-principal);
+    background-color: var(--cor-3);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .menu__lista-item{
-    background: var(--cor-principal);
+    background: var(--cor-4);
     color: var(--cor-4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
