@@ -5,7 +5,7 @@ function toggleFavorite(imgElement) {
             const parser = new DOMParser(); 
             const svgDoc = parser.parseFromString(data, "image/svg+xml"); 
             const svgElement = svgDoc.querySelector('path'); // Seleciona o elemento <path> 
-            const currentColor = svgElement.getAttribute('fill'); svgElement.setAttribute('fill', currentColor === '#FFFFFF' ? '#FF0000' : '#FFFFFF'); // Alterna a cor 
+            const currentColor = svgElement.getAttribute('fill'); svgElement.setAttribute('fill', currentColor === '#5CE1E6' ? '#FF0000' : '#5CE1E6'); // Alterna a cor 
             const serializedSvg = new XMLSerializer().serializeToString(svgElement.ownerDocument.documentElement); 
             const svgBlob = new Blob([serializedSvg], { type: 'image/svg+xml' }); 
             const url = URL.createObjectURL(svgBlob); 
