@@ -8,16 +8,13 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-    <link 
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  
+    <link rel="stylesheet" href="style.css">
+     <!-- link rel="stylesheet" href="styles/apresentacao.css" -->
+   
 </head>
 
 <body>
@@ -43,7 +40,7 @@
         <ul class="opcoes">
             <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
             <label for="opcoes-menu">  
-                <li class="opcoes__item"> CATEGORIA REVER </li>
+                <li class="opcoes__item"> CATEGORIA  </li>
             </label>
         
             <ul class="cabecalho-lista">
@@ -197,10 +194,12 @@
 
     </div>
 
-    <div class="class__botoes">
+    <div class="card__botoes">
         <ul class="botoes">
             <li class="botoes__item">
-                <img src="./img/favoritos.svg" alt="Favoritar produto">
+              
+                <!-- link rel="stylesheet" href="styles/apresentacao.css" -->
+            
             </li>
             <li class="botoes__item"> 
                 <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
@@ -229,21 +228,23 @@
         <img src="img/logo.png" alt="logo empresa" class="rodape-imagem">
     </footer>
 
+    <script src="favorito.js" ></script>
+    <script src="app2.js" ></script>
+    <script src="missaoVisaoValores.js" ></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 1,
-
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-            },
+        var swiper = new Swiper(".swiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
         });
     </script>
-
-    <script src="app.js" ></script>
-    <script src="missaoVisaoValores.js" ></script>
 
 </body>
 
