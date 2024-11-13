@@ -49,12 +49,12 @@
 }
 
 .cartao__conteudo__pergunta p {
-    color: var(--cor-principal);
+    color: var(--cor-preto);
     font-weight: 500;
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--cor-secundaria);
+    color: var(--cor-2);
     font-weight: 700;
 }
 
