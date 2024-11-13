@@ -4,7 +4,7 @@
 }
 
 .carrossel__titulo {
-    color: var(--cor-principal);
+    color: var(--cor-3);
     background-color: var(--cor-4);
     text-align: center;
     text-transform: uppercase;
