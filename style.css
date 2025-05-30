@@ -38,3 +38,42 @@
 .apresenta-lista{
     display: none;
 }
+
+.alto-contraste {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.alto-contraste header,
+.alto-contraste .formulario {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+
+.alto-contraste .nav-link {
+    color: var(--cor-2);
+}
+
+.alto-contraste .carrossel__titulo {
+    color: var(--cor-branco);
+}
+
+.alto-contraste footer,
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button {
+    background-color: var(--cor-2);
+    color: var(--cor-preto);
+}
+
+.alto-contraste .btn-primary {
+    background-color: var(--cor-2);
+    color: var(--cor-branco);
+}
+
+.alto-contraste #escola {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--cor-preto);
+}
